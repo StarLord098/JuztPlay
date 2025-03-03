@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+body{
+	background-color: #edede9;
+}
+
+.navbar{
+	padding-right: 200px;
+	padding-left: 100px;
+	position: sticky;
+	background-color: #edede9;
+	top: 0;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height: 60px;
+	width: 100px;
+}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+.nav li a{
+	color: #3E3C3C;
+	font-size: 20px;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	color: #d6ccc2;
+}
+
+.game img{
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	width: 150px;
+}
+
+.main h1{
+	font-size: 40px;
+	text-align: center;
+	color: #3E3C3C;
+    padding-top: 3vh;
+}
+
+.contact{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.contact ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #3E3C3C;
+    margin: 2vh;
+    font-size: 20px;
+}
+
+.contact a:hover{
+    color: #d5bdaf;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo h3 {
+    width: 200px; 
+}
+
+.footer-logo p {
+    width: 400px;
+	margin-top: 30px; 
+	text-align: justify;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-links li {
+    margin-bottom: 10px;
+	margin: 20px;
+}
+
+.footer-links a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.facebook a:hover{
+	color: rgb(1, 101, 225);
+}
+
+.twitter a:hover{
+	color: rgb(29, 155, 240);
+}
+
+.instagram a:hover{
+	color: rgb(232, 111, 107);
+}
+
+.discord a:hover{
+	color: rgb(141, 180, 238);
+}
+
+.footer-contact {
+    text-align: center;
+}
+.footer-contact p{
+	margin: 20px;
+}
+
+.container p{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
